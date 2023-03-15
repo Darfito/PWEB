@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>Animated Login Form | CodingNepal</title>
+    <title>Login</title>
     <link rel="stylesheet" href="/css/loginv.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins"
@@ -17,14 +17,14 @@
         <li class="--item">
           <a href="/Konten/Destinaton.html">Destination</a>
         </li>
-        <li class="--item"><a href="#">Stories</a></li>
+        <li class="--item"><a href="/Konten/stories.html">Stories</a></li>
         <li class="--item"><a href="#">About Us</a></li>
       </ul>
     </nav>
 
     <div class="center">
       <h1>Login</h1>
-      <form method="post">
+      <form method="post" action="/Konten/stories.html">
         <div class="txt_field">
           <input type="text" required />
           <span></span>
@@ -37,12 +37,18 @@
         </div>
         <div class="pass">Forgot Password?</div>
         <div class="loginn">
-          <input type="submit" value="Login" />
+          <a href="/Konten/stories.html">
+            <input type="submit" value="Login" />
+          </a>
         </div>
         <div class="logg">
-          <input type="submit" value="Login with Google" />
+          <a href="/Konten/stories.html">
+            <input type="submit" value="Login with Google" />
+          </a>
         </div>
-        <div class="signup_link">Not a member? <a href="#">Signup</a></div>
+        <div class="signup_link">
+          Not a member? <a href="/Konten/signup.html">Signup</a>
+        </div>
       </form>
     </div>
   </body>
