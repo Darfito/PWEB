@@ -4,11 +4,73 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: "poppins";
+  
 }
 
-body {
+body{
+  overflow-x:hidden ;
+}
+
+.navbar {
   width: 100vw;
-  background-image: url("/Assets/Background/destination 1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}/*# sourceMappingURL=Destination.css.map */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: #354259
+}
+
+h1{
+  margin-left: 20px;
+  size: 48px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+}
+
+.button li {
+  margin: 20px 5px 20px 5px;
+  background-color: #BCCEEC;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+.button li a {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button li a {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button li:hover {
+  background-color: #54698C;
+  transition: 0.5s;
+}
+
+.google a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #54698C;
+  border-radius: 50%;
+  margin: 20px 14px 20px 5px;
+}
+
+.google img {
+  border-radius: 50%;
+}
+
+.my-h1 {
+  font-size: 4rem;
+}
