@@ -20,7 +20,7 @@
 .topnav img {
   width: 400px;
   height: 150px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .navbar {
@@ -29,33 +29,44 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 0 20px;
 }
-.navbar h1 {
-  font-size: 1.5rem;
+.navbar .navbar--judul {
   color: white;
   margin-left: 20px;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .button {
   display: flex;
   flex-direction: row;
   transform: translateX(-70px);
+  align-items: center;
 }
 
 .button li {
-  margin: 20px;
-}
-
-.button li a {
-  text-decoration: none;
-  padding: 10px 25px;
-  color: #fff;
+  margin: 20px 5px 20px 5px;
   background-color: #bcceec;
+  padding: 10px 30px;
   border-radius: 20px;
 }
 
-.button li a:hover {
+.button li a {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button li:hover {
   background-color: #54698c;
   transition: 0.5s;
+}
+
+.google a .imgp {
+  margin: 0;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
 }/*# sourceMappingURL=Stories.css.map */

@@ -5,11 +5,10 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "poppins";
-  
 }
 
-body{
-  overflow-x:hidden ;
+body {
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -19,30 +18,26 @@ body{
   align-items: center;
   justify-content: space-between;
   color: white;
-  background-color: #354259
+  background-color: #354259;
 }
 
-h1{
+.navbar--judul {
   margin-left: 20px;
-  size: 48px;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .button {
   display: flex;
   flex-direction: row;
+  transform: translateX(-70px);
 }
 
 .button li {
   margin: 20px 5px 20px 5px;
-  background-color: #BCCEEC;
+  background-color: #bcceec;
   padding: 10px 30px;
   border-radius: 20px;
-}
-.button li a {
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .button li a {
@@ -54,15 +49,15 @@ h1{
 }
 
 .button li:hover {
-  background-color: #54698C;
+  background-color: #54698c;
   transition: 0.5s;
 }
 
-.google a{
+.google a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #54698C;
+  background-color: #54698c;
   border-radius: 50%;
   margin: 20px 14px 20px 5px;
 }

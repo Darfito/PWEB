@@ -41,6 +41,7 @@ body {
   color: #fff;
   background-color: #bcceec;
   border-radius: 20px;
+  text-decoration: none;
 }
 .button li a:hover {
   background-color: #54698c;
