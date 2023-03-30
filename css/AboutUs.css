@@ -28,11 +28,12 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 0 20px;
 }
 .navbar h1 {
   color: white;
   margin-left: 20px;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .button {
@@ -42,20 +43,36 @@ body {
 }
 
 .button li {
-  margin: 20px;
-}
-
-.button li a {
-  text-decoration: none;
-  padding: 10px 25px;
-  color: #fff;
+  margin: 20px 5px 20px 5px;
   background-color: #bcceec;
+  padding: 10px 30px;
   border-radius: 20px;
 }
 
-.button li a:hover {
+.button li a {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button li:hover {
   background-color: #54698c;
   transition: 0.5s;
+}
+
+.google a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #54698c;
+  border-radius: 50%;
+  margin: 20px 14px 20px 5px;
+}
+
+.google img {
+  border-radius: 50%;
 }
 
 .container {
