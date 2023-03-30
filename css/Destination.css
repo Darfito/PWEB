@@ -22,6 +22,10 @@ body{
   background-color: #354259
 }
 
+.background img{
+  width: 100%;
+}
+
 h1{
   margin-left: 20px;
   size: 48px;

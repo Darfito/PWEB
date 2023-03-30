@@ -9,7 +9,7 @@
 body {
   width: 100vh;
   font-family: "Poppins";
-  background-image: url("/Assets/Background/layout_desktop.png");
+  background-image: url("../Assets/Background/layout_desktop.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
