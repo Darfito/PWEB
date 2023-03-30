@@ -42,7 +42,7 @@ body {
   border: none;
   border-radius: 20px;
   margin: 10px;
-  padding: 15px;
+  padding: 30px;
   background: #7a96c7;
 }
 .container .container--button:hover {
@@ -53,7 +53,7 @@ body {
 
 a {
   font-style: normal;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: 500;
   line-height: 18px;
   color: #fff;
@@ -63,4 +63,4 @@ a {
   text-decoration: none;
   border-color: #2691d9;
   transition: 0.5s;
-}/*# sourceMappingURL=Landing.css.map */
+}/*# sourceMappingURL=style.css.map */
