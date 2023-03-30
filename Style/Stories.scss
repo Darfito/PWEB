@@ -19,7 +19,7 @@
     img {
         width: 400px;
         height: 150px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
 }
 
@@ -29,11 +29,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  & &--judul {
+  margin: 0 20px;
+  h1{
+    font-size: 1.5rem;
     color: white;
     margin-left: 20px;
-    font-size: 2.5rem;
-    font-weight: 500;
   }
 }
 
@@ -41,48 +41,19 @@
   display: flex;
   flex-direction: row;
   transform: translateX(-70px);
-  align-items: center;
 }
 .button li {
-  margin: 20px 5px 20px 5px;
+  margin: 20px;
+}
+.button li a {
+  text-decoration: none;
+  padding: 10px 25px;
+  color: #fff;
   background-color: #bcceec;
-  padding: 10px 30px;
   border-radius: 20px;
 }
-
-.button li a {
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
-.button li:hover {
+.button li a:hover {
   background-color: #54698c;
   transition: 0.5s;
 }
-
-
-.google {
-  a{
-    .imgp{
-      margin: 0;
-      width: 43px;
-      height: 43px;
-      border-radius: 50%;
-    }
-  }
-}
-
-// .google a {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   background-color: #54698c;
-//   border-radius: 50%;
-//   margin: 20px 14px 20px 5px;
-//   img{
-
-//   }
-// }
 
