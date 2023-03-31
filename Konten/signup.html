@@ -9,18 +9,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/signup.css" />
+    <script src="../Konten/Javascript/jssignup.js"></script>
     <title>Sign Up</title>
   </head>
   <body>
 
     <nav class="navbar">
-      <h1 class="--judul">TOUGO</h1>
+      <h1 class="navbar--judul">TOUGO</h1>
       <ul class="button">
-        <li class="--item">
+        <li class="button--item">
           <a href="../Konten/Destination.html">Destination</a>
         </li>
-        <li class="--item"><a href="/Konten/stories.html">Stories</a></li>
-        <li class="--item"><a href="../Konten/AboutUs.html">About Us</a></li>
+        <li class="button--item"><a href="../Konten/stories.html">Stories</a></li>
+        <li class="button--item"><a href="../Konten/AboutUs.html">About Us</a></li>
       </ul>
     </nav>
 <div class="wrapper">
@@ -29,30 +30,35 @@
             </div>
             <form action="#">
                 <div class="field">
+                  <span></span>
                     <label>First Name</label>
                     <input type="text" required>
                 </div>
                 <div class="field">
+                  <span></span>
                     <label>Last Name</label>
                     <input type="text" required>
                 </div>
                 <div class="field">
+                  <span></span>
                     <label>Email</label>
                     <input type="text" required>
                 </div>
                 <div class="field">
+                  <span></span>
                     <label>Password</label>
                     <input type="password" required>
                 </div>
                 <div class="field">
+                  <span></span>
                     <label>Confirm Password</label>
                     <input type="password" required>
                 </div>
                 <div class="field">
-                    <input type="submit" value="SignUp">
+                    <input type="submit" value="Sign Up" onclick="submitFormUp()">
                 </div>
                 <div class="signup-link">
-                    Already have account? <a href="/Konten/Login.html">Log In</a>
+                    Already have account? <a href="../Konten/Login.html">Log In</a>
                 </div>
             </form>
 

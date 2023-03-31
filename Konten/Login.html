@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - youtube.com/codingnepal -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
@@ -9,22 +8,23 @@
       href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
     />
+    <script src="../Konten/Javascript/jslogin.js"></script>
   </head>
   <body>
     <nav class="navbar">
-      <h1 class="--judul">TOUGO</h1>
+      <h1 class="navbar--judul">TOUGO</h1>
       <ul class="button">
-        <li class="--item">
+        <li class="button--item">
           <a href="../Konten/Destination.html">Destination</a>
         </li>
-        <li class="--item"><a href="../Konten/stories.html">Stories</a></li>
-        <li class="--item"><a href="../Konten/AboutUs.html">About Us</a></li>
+        <li class="button--item"><a href="../Konten/stories.html">Stories</a></li>
+        <li class="button--item"><a href="../Konten/AboutUs.html">About Us</a></li>
       </ul>
     </nav>
 
     <div class="center">
       <h1>Login</h1>
-      <form method="post" action="../Konten/stories.html">
+      <form method="post" action="#">
         <div class="txt_field">
           <input type="text" required />
           <span></span>
@@ -37,12 +37,12 @@
         </div>
         <div class="pass">Forgot Password?</div>
         <div class="loginn">
-          <a href="../Konten/stories.html">
-            <input type="submit" value="Login" />
+          <a href="../Konten/Profile.html">
+            <input type="submit" value="Login" onclick="validateForm()"/>
           </a>
         </div>
         <div class="logg">
-          <a href="../Konten/stories.html">
+          <a href="../Konten/Profile.html">
             <input type="submit" value="Login with Google" />
           </a>
         </div>
