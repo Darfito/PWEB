@@ -76,15 +76,23 @@ body {
 }
 
 .container {
-  margin: 50px 100px;
-  color: black
+  margin: 50px 90px;
+  color: black;
 }
 .container h1 {
   font-size: 2.5rem;
 }
 .container p {
+  margin-top: 0px;
   font-size: 1rem;
   line-height: 24px;
+  text-align: justify;
+}
+
+.foto img {
+  margin-top: 10px; 
+  width: 1080px;
+  height: 720px;
 }
 
 .footer-distributed {
