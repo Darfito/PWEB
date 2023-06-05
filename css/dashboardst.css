@@ -163,10 +163,10 @@ main {
   color: #354259;
   font-size: 3rem;
 }
-.card .card-single:nth-child(2) {
+.card .card-single:nth-child(3) {
   background: #354259;
 }
-.card .card-single:nth-child(2) h1, .card .card-single:nth-child(2) div:first-child span, .card .card-single:nth-child(2) div:last-child span {
+.card .card-single:nth-child(3) h1, .card .card-single:nth-child(3) div:first-child span, .card .card-single:nth-child(3) div:last-child span {
   color: #fff;
 }
 

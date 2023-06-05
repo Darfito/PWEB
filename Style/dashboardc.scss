@@ -184,13 +184,13 @@ main {
      font-size: 3rem;
   }
 
-  & &-single:nth-child(2){
+  & &-single:nth-child(1){
     background: $base-color;
   }
   
-  & &-single:nth-child(2) h1,
-  & &-single:nth-child(2) div:first-child span,
-  & &-single:nth-child(2) div:last-child span{
+  & &-single:nth-child(1) h1,
+  & &-single:nth-child(1) div:first-child span,
+  & &-single:nth-child(1) div:last-child span{
      color: #fff
   }
 

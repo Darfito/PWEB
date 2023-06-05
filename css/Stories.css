@@ -29,6 +29,7 @@
   height: 43px;
   border-radius: 50%;
   margin-top: 13px;
+  margin-left: 10px;
 }
 
 .navbar {
@@ -49,10 +50,11 @@
   display: flex;
   flex-direction: row;
   transform: translateX(-70px);
+  margin: 0;
 }
 
 .button li {
-  margin: 20px;
+  margin: 20px 5px;
 }
 
 .button li a {
